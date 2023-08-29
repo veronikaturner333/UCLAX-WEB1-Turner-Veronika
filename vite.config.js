@@ -11,5 +11,10 @@ export default defineConfig({
     resolve: {
         alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
     },
-    base: "/UCLAX-WEB1-Turner-Veronika/",
+    {
+        build: {
+            outDir: './build',
+        },
+        base: "/UCLAX-WEB1-Turner-Veronika/",
+    }
 });
