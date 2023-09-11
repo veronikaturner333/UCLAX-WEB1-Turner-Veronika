@@ -7,7 +7,7 @@ const StaffBio = ({ member }) => {
     return (
         <StaffBioStyled className="StaffBio">
             <div className="year">
-                <b>Year Started:</b>
+                <b>Description: </b>
                 {member.yearStarted}
             </div>
             <AccoladeList member={member} />

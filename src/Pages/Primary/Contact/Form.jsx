@@ -109,7 +109,7 @@ const FormStyled = styled.form`
     }
 
     button {
-        background-color: teal;
+        background-color: #0d0d56;
         padding: 10px 5px;
         color: white;
         width: 150px;
@@ -120,10 +120,10 @@ const FormStyled = styled.form`
 
         &:hover,
         &:focus {
-            background-color: #015353;
+            background-color: #17176e;
         }
         &:active {
-            background-color: #002020;
+            background-color: #000000;
         }
     }
 `;

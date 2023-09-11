@@ -15,8 +15,8 @@ const Tab = ({ tab, curTab, curTabUpdate }) => {
 export default Tab;
 
 const TabStyled = styled.div`
-    background-color: #014444;
-    color: #17b1b1;
+    background-color: #0d0d56;
+    color: #ffffff;
     text-align: center;
     cursor: pointer;
     border-radius: 5px 5px 0px 0px;
@@ -28,7 +28,7 @@ const TabStyled = styled.div`
     width: clamp(75px, 20%, 150px);
 
     &.selected {
-        background-color: teal;
+        background-color: #000000;
         color: white;
     }
 `;
