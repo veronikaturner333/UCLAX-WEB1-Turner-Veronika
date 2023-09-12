@@ -7,7 +7,7 @@ export const tabbedData = [
         id: 1,
         image: image1,
         title: "About",
-        text: "<p>I have been doodling since I can remember and try to set aside time outside of being a full-time graphic designer to keep making art for fun. Please enjoy some of my drawings!</p>",
+        text: "<p>I have been doodling since I can remember, and try to set aside time outside of being a full-time graphic designer to keep making art for fun. Please enjoy some of my drawings!</p>",
     },
     {
         id: 2,
